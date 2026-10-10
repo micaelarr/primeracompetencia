@@ -1,0 +1,89 @@
+{
+  "descripcion": "6 mejores trials (por ganancia suavizada en 202106 con 3 semillas) del estudio 'lgbm_binario' de optuna_lgbm_binario_v9.db. Objetivo de Optuna: ganancia máxima de la curva suavizada (media móvil de 401 envíos) en 202106, entrenando 202103-202105 con pesos por mes 0.8**antigüedad y 504 columnas.",
+  "configuraciones": [
+    {
+      "origen": "lgbm_binario",
+      "trial": 54,
+      "valor_optuna": 486488852.8678304,
+      "params": {
+        "learning_rate": 0.015612703381810599,
+        "num_leaves": 27,
+        "min_data_in_leaf": 766,
+        "feature_fraction": 0.15444767384449581,
+        "bagging_fraction": 0.9947572829047991,
+        "lambda_l2": 0.37873831248437256,
+        "num_boost_round": 484
+      }
+    },
+    {
+      "origen": "lgbm_binario",
+      "trial": 32,
+      "valor_optuna": 480285099.75062346,
+      "params": {
+        "learning_rate": 0.014531061647074092,
+        "num_leaves": 43,
+        "min_data_in_leaf": 1736,
+        "feature_fraction": 0.15713432617476172,
+        "bagging_fraction": 0.9692633473387323,
+        "lambda_l2": 1.4943015630266268,
+        "num_boost_round": 631
+      }
+    },
+    {
+      "origen": "lgbm_binario",
+      "trial": 23,
+      "valor_optuna": 478287406.4837905,
+      "params": {
+        "learning_rate": 0.017237078740101018,
+        "num_leaves": 26,
+        "min_data_in_leaf": 945,
+        "feature_fraction": 0.10311474177385625,
+        "bagging_fraction": 0.890631830104153,
+        "lambda_l2": 0.492418620530642,
+        "num_boost_round": 516
+      }
+    },
+    {
+      "origen": "lgbm_binario",
+      "trial": 26,
+      "valor_optuna": 478216153.3665835,
+      "params": {
+        "learning_rate": 0.015494668647079659,
+        "num_leaves": 78,
+        "min_data_in_leaf": 3052,
+        "feature_fraction": 0.10833089379318772,
+        "bagging_fraction": 0.7895872741175383,
+        "lambda_l2": 0.8492377345278003,
+        "num_boost_round": 571
+      }
+    },
+    {
+      "origen": "lgbm_binario",
+      "trial": 43,
+      "valor_optuna": 476870367.83042395,
+      "params": {
+        "learning_rate": 0.01922004952162682,
+        "num_leaves": 44,
+        "min_data_in_leaf": 1418,
+        "feature_fraction": 0.10236806870585548,
+        "bagging_fraction": 0.9652474036368197,
+        "lambda_l2": 0.8281582583221055,
+        "num_boost_round": 501
+      }
+    },
+    {
+      "origen": "lgbm_binario",
+      "trial": 31,
+      "valor_optuna": 476508135.91022444,
+      "params": {
+        "learning_rate": 0.013314097648216049,
+        "num_leaves": 28,
+        "min_data_in_leaf": 1399,
+        "feature_fraction": 0.1343272633492515,
+        "bagging_fraction": 0.8795820052170668,
+        "lambda_l2": 0.7865118082223679,
+        "num_boost_round": 624
+      }
+    }
+  ]
+}
